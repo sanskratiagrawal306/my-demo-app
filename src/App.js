@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Settings from './Settings';
 // import Vanilla from './Vanilla';
 import Vanilla2 from './Vanilla2';
+import Header from './Header';
 
 function App() {
 	const [ productType, setProductType ] = useState('SEARCH');
@@ -32,6 +33,7 @@ function App() {
 					}}
 				>
 					<>
+					<Header />
 						<Button variant="primary" onClick={() => setDemoType('VANILLA')} className="me-2">
 							View JS Demo
 						</Button>
