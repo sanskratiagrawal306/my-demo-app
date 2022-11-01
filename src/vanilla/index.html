@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- Dependency library stylesheets -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.5.0/nouislider.min.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+        />
+        <!-- <link
+            rel="stylesheet"
+            href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+        /> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
+        <!-- End dependency library stylesheets -->
+
+        <!-- Custom stylesheet for Unbxd default theme, update this if you want to change the look & feel -->
+        <link 
+            rel="stylesheet" 
+            href="https://libraries.unbxdapi.com/search-sdk/v2.0.5/vanillaSearch.min.css"
+        />
+        <link rel="stylesheet" type="text/css" href="./unbxdStyles.css" />
+        <link rel="stylesheet" type="text/css" href="./unbxdAutosuggestStyles.css" />
+        <script type="text/javascript">
+            {{CONFIG_SCRIPT}}
+        </script>
+    </head>
+    <body class="{{langCSS}}">
+        {{CONTENT}}
+    </body>
+    <!-- Unbxd SDK dependency libraries: jQuery, jQuery UI & Handlebars -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://libraries.unbxdapi.com/sdk-assets/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="https://libraries.unbxdapi.com/sdk-assets/jquery.ui.mouse.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.5.3/handlebars.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.5.0/nouislider.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+
+    <!-- Unbxd Search JS SDK -->
+    <script
+        type="text/javascript"
+        src="https://libraries.unbxdapi.com/search-sdk/v2.0.13/vanillaSearch.min.js"
+    ></script>
+
+    <!-- Unbxd Autosuggest SDK -->
+    <script
+        type="text/javascript"
+        src="https://libraries.unbxdapi.com/unbxdAutosuggest_v1.1.js"
+    ></script>
+
+    <!-- Unbxd SDK trigger script for default template -->
+    <script type="text/javascript" src="./unbxdInit.js"></script>
+</html>
