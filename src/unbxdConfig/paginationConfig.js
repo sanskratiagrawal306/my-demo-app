@@ -16,7 +16,8 @@ export const paginationConfig = [{
 	dataType: "Element",
     formDataType: 'string',
 	defaultVal: null,
-	description: "Element in which to render the pagination component"
+	description: "Element in which to render the pagination component",
+	
 }, {
 	name: "template",
 	dataType: "Function",

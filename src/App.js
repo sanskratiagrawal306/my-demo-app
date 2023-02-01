@@ -14,7 +14,7 @@ import Header from './Header';
 
 function App() {
 	const [ productType, setProductType ] = useState('SEARCH');
-	const [ demoType, setDemoType ] = useState('VANILLA');
+	const [ demoType, setDemoType ] = useState('');
 	const [ enableFilters, setEnableFilters ] = useState(true);
 	const [ show, setShow ] = useState(false);
 
@@ -33,7 +33,7 @@ function App() {
 					}}
 				>
 					<>
-					<Header />
+					{/* <Header /> */}
 						<Button variant="primary" onClick={() => setDemoType('VANILLA')} className="me-2">
 							View JS Demo
 						</Button>
@@ -45,7 +45,7 @@ function App() {
 						</Button>
 						<Offcanvas show={show} onHide={handleClose} placement="end" name="end" >
 							<Offcanvas.Header closeButton>
-								<Offcanvas.Title>Jai guru deva datta</Offcanvas.Title>
+								<Offcanvas.Title>SDK Configuration</Offcanvas.Title>
 							</Offcanvas.Header>
 							<Offcanvas.Body>
 								<Settings />
